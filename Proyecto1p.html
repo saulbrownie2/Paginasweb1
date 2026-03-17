@@ -1,107 +1,140 @@
-Html>
-  <HEADER>
-    
-  </HEADER>
-  <body>
-    <table>
-      <tr>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Animales</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 20px;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #5dade2;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #eaf6ff;
+      border: 3px solid #85c1e9;
+    }
+
+    th {
+      background-color: #aed6f1;
+      color: #154360;
+      padding: 12px;
+      border: 2px solid #85c1e9;
+      font-size: 18px;
+    }
+
+    td {
+      border: 2px solid #85c1e9;
+      padding: 12px;
+      vertical-align: middle;
+      color: #1b4f72;
+    }
+
+    .animal {
+      width: 15%;
+      text-align: center;
+      font-weight: bold;
+      background-color: #d6eaf8;
+    }
+
+    .descripcion {
+      width: 35%;
+      text-align: justify;
+      background-color: #f8fcff;
+    }
+
+    .imagen {
+      width: 50%;
+      text-align: center;
+      background-color: #dff2ff;
+    }
+
+    img {
+      width: 90%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid #85c1e9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐾 Tabla de Animales 🐾</h1>
+
+  <table>
+    <tr>
       <th>ANIMALES</th>
-<th>DESCRIPCION</th>
-<th>IMAGEN</th>
-</tr>
-      <td>
-        FLAMINGO
-      <td>
-      El flamenco (Phoenicopterus) es una ave zancuda conocida por su plumaje rosado,
-      largo cuello y patas, y su comportamiento altamente social,viviendo en grandes 
-      bandadas. Habitan zonas de aguas poco profundas (salinas o salobres) en todos 
-      los continentes excepto Oceanía. Se alimentan filtrando pequeños crustáceos 
-      y algas, lo que les da su color. 
-         <td>
+      <th>DESCRIPCIÓN</th>
+      <th>IMAGEN</th>
+    </tr>
 
-<img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Phoenicopterus_roseus_%28Walvis_bay%29.jpg/960px-Phoenicopterus_roseus_%28Walvis_bay%29.jpg"
-</td>
+    <tr>
+      <td class="animal">FLAMINGO</td>
+      <td class="descripcion">
+        El flamenco es un ave zancuda conocida por su plumaje rosado, su largo cuello y sus patas largas. 
+        Vive en grandes bandadas y habita en aguas poco profundas.
+      </td>
+      <td class="imagen">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Phoenicopterus_roseus_%28Walvis_bay%29.jpg/960px-Phoenicopterus_roseus_%28Walvis_bay%29.jpg" alt="Flamenco">
+      </td>
+    </tr>
 
-</tr>
+    <tr>
+      <td class="animal">CEBRA</td>
+      <td class="descripcion">
+        La cebra es un mamífero africano famoso por sus rayas blancas y negras. 
+        Vive en manadas y es un animal muy veloz.
+      </td>
+      <td class="imagen">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Equus_zebra_-_Disney%27s_Animal_Kingdom_Lodge%2C_Orlando%2C_Florida%2C_USA_-_20100119.jpg/1280px-Equus_zebra_-_Disney%27s_Animal_Kingdom_Lodge%2C_Orlando%2C_Florida%2C_USA_-_20100119.jpg" alt="Cebra">
+      </td>
+    </tr>
 
-</table>
+    <tr>
+      <td class="animal">SURICATA</td>
+      <td class="descripcion">
+        La suricata es un pequeño mamífero carnívoro del sur de África. 
+        Es muy sociable y suele pararse erguida para vigilar.
+      </td>
+      <td class="imagen">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Suricata_suricatta_-_meerkat_-_suracte_-_Erdm%C3%A4nnchen_07.jpg" alt="Suricata">
+      </td>
+    </tr>
 
-</body>
-</Html>
+    <tr>
+      <td class="animal">ARDILLA</td>
+      <td class="descripcion">
+        La ardilla es un pequeño roedor de cola larga y peluda. 
+        Es ágil para trepar árboles y almacenar comida.
+      </td>
+      <td class="imagen">
+        <img src="https://definicion.de/wp-content/uploads/2022/07/ardilla.jpg" alt="Ardilla">
+      </td>
+    </tr>
 
-      <td>
-        CEBRA
-      <td>
-      La cebra es un mamífero africano caracterizado por sus rayas blancas y negras, con una base de piel negra.
-      Son animales veloces (hasta) que viven en manadas. El término también se refiere a Zebra Technologies,
-      empresa líder en soluciones de escaneo, impresión y computación móvil para logística, salud y comercio.
-         <td>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Equus_zebra_-_Disney%27s_Animal_Kingdom_Lodge%2C_Orlando%2C_Florida%2C_USA_-_20100119.jpg/1280px-Equus_zebra_-_Disney%27s_Animal_Kingdom_Lodge%2C_Orlando%2C_Florida%2C_USA_-_20100119.jpg"
-</td>
-
-</tr>
-
-</table>
-
-</body>
-</Html>
-
-
-      <td>
-        SURICATA
-      <td>
-      La suricata (Suricata suricatta) es un pequeño mamífero carnívoro de la familia de las mangostas, nativo del
-      sur de África (desiertos de Kalahari y Namib). Destacan por ser muy sociables, vivir en madrigueras subterráneas
-      y adoptar una postura erguida característica para vigilar depredadores, comportándose como "centinelas" en grupos
-      de hasta 50 individuos.
-         <td>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Suricata_suricatta_-_meerkat_-_suracte_-_Erdm%C3%A4nnchen_07.jpg"
-</td>
-
-</tr>
-
-</table>
-
-</body>
-</Html>                                                                                
-
- <td>
-        ARDILLA
-      <td>
-     La ardilla es un pequeño mamífero roedor de la familia Sciuridae, caracterizado por su cola larga y peluda, 
-     agilidad para trepar árboles y una dieta omnívora (nueces, semillas, frutos, insectos). Existen más de 200 
-     especies —incluyendo arborícolas, terrestres y voladoras— distribuidas casi globalmente. Son diurnas y 
-     almacenan comida.
-         <td>
-
-<img src="https://definicion.de/wp-content/uploads/2022/07/ardilla.jpg"
-</td>
-
-</tr>
-
-</table>
+    <tr>
+      <td class="animal">MAPACHE</td>
+      <td class="descripcion">
+        El mapache es un mamífero omnívoro y nocturno, conocido por su "máscara" negra 
+        y por su gran inteligencia.
+      </td>
+      <td class="imagen">
+        <img src="https://cdn0.ecologiaverde.com/es/posts/7/6/7/mapache_5767_600.webp" alt="Mapache">
+      </td>
+    </tr>
+  </table>
 
 </body>
-</Html>                
-
-
- <td>
-        ARDILLA
-      <td>
-    El mapache (Procyon lotor) es un mamífero omnívoro y nocturno de tamaño mediano, nativo de América y caracterizado
-    por su pelaje gris, una "máscara" negra alrededor de los ojos y una cola anillada. Son conocidos por su gran 
-    inteligencia, adaptabilidad a zonas urbanas y el uso de sus hábiles patas delanteras para manipular objetos y
-    buscar alimento.
-         <td>
-
-<img src="https://cdn0.ecologiaverde.com/es/posts/7/6/7/mapache_5767_600.webp"
-</td>
-
-</tr>
-
-</table>
-
-</body>
-</Html>                     
+</html>
