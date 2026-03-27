@@ -25,6 +25,12 @@
     .tabla-productos th, .tabla-productos td {
         border: 1px solid #ccc;
         padding: 10px;
+        text-align: center;
+    }
+
+    .tabla-productos th {
+        background-color: #2980b9;
+        color: white;
     }
 
     .img-producto {
@@ -47,7 +53,7 @@
 
 <table class="tabla-productos">
     <thead>
-        <tr style="background-color: #2980b9; color: white;">
+        <tr>
             <th>Vista Previa</th>
             <th>Descripción del Producto</th>
             <th>Categoría</th>
@@ -57,8 +63,8 @@
 
     <tbody>
         <tr>
-            <td align="center">
-                <img src="cpu_quantum.jpg" class="img-producto" width="100">
+            <td>
+                <img src="img/cpu_quantum.jpg" alt="Procesador Quantum X1" class="img-producto" width="100">
             </td>
             <td>
                 <h3>Procesador Quantum X1</h3>
@@ -69,8 +75,8 @@
         </tr>
 
         <tr>
-            <td align="center">
-                <img src="ram_ddr6.jpg" class="img-producto" width="100">
+            <td>
+                <img src="img/ram_ddr6.jpg" alt="Memoria RAM DDR6 64GB" class="img-producto" width="100">
             </td>
             <td>
                 <h3>Memoria RAM DDR6 64GB</h3>
@@ -81,11 +87,12 @@
         </tr>
 
         <tr>
-            <td align="center">
-                <img src="ssd_holographic.jpg" class="img-producto" width="100">
+            <td>
+                <img src="img/ssd_holographic.jpg" alt="SSD Holográfico 10TB" class="img-producto" width="100">
             </td>
             <td>
                 <h3>SSD Holográfico 10TB</h3>
+                <p>Almacenamiento de alta velocidad con tecnología holográfica.</p>
             </td>
             <td>Almacenamiento</td>
             <td>$850.00</td>
